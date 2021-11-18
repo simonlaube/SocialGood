@@ -1,0 +1,22 @@
+#### setup
+
+conda create --name SocialGoodEnv python=3.7 -c conda-forge
+
+conda activate SocialGoodEnv
+
+conda install -c conda-forge jupyterlab
+
+conda install pandas
+
+conda install matplotlib
+
+conda install geopandas
+
+conda install numpy
+
+python -m ipykernel install --user --name=SocialGoodKernel
+
+
+#### start
+
+jupyter lab
